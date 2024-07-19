@@ -1,21 +1,18 @@
+@use "../utils/mixin";
+@use "../utils/variables" as v;
+
 .badge {
-  display: inline-block;
-  min-width: 96px;
-  padding: 4px 8px;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 20px;
-  letter-spacing: 0.07px;
-  text-align: center;
-  color: #ffffff;
-  border-radius: 20px;
+  @include mixin.badge-base;
+  color: v.$badge-cl;
 }
+
 .badges-completed {
-  background-color: #a461d8;
+  background-color: v.$completed;
 }
+
 .badges-ended {
-  background-color: #fc5a5a;
+  background-color: v.$ended;
 }
 .badges-activ {
-  background-color: #82c43c;
+  background-color: v.$activ;
 }
