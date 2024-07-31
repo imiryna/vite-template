@@ -1,7 +1,11 @@
 // @use "reset";
-@use "base";
-@use "components";
-@use "layout";
-@use "utils";
-@use "themes";
-@use "vendors";
+// @use "base";
+// @use "components";
+// @use "layout";
+// @use "utils";
+
+@use "--examples--/lesson-05/variables";
+/* END */
+@use "--examples--/lesson-05/base";
+@use "--examples--/lesson-05/btn-scema";
+@use "--examples--/lesson-05/button";
