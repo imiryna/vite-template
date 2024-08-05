@@ -4,8 +4,11 @@
 // @use "layout";
 // @use "utils";
 
-@use "--examples--/lesson-05/variables";
-/* END */
-@use "--examples--/lesson-05/base";
-// @use "--examples--/lesson-05/btn-scema";
-@use "--examples--/lesson-05/button";
+// @use "--examples--/lesson-05/variables";
+// /* END */
+// @use "--examples--/lesson-05/base";
+// // @use "--examples--/lesson-05/btn-scema";
+// @use "--examples--/lesson-05/button";
+
+@use "--examples--/lesson-06/nesting";
+@use "--examples--/lesson-06/combinators";
