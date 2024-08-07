@@ -26,9 +26,11 @@
 }
 
 .notification-primary {
+  @extend .notification;
   background-color: #f07f2e;
 }
 
 .notification-success {
+  @extend .notification;
   background-color: #82c43c;
 }
