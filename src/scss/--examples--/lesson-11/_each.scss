@@ -1,0 +1,8 @@
+// @each at-rule with list
+$sizes: 8, 16, 20;
+
+@each $size in $sizes {
+  .p-#{$size} {
+    padding: #{$size}px;
+  }
+}
